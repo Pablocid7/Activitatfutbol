@@ -1,0 +1,90 @@
+
+main{
+    clear: both;
+}
+
+/* Body */
+body {
+    font-family: 'Lato', sans-serif;
+  }
+  
+  /* Cabecera */
+  header {
+    background-color: #673ab7;
+    padding: 30px;
+    position: relative;
+  }
+  
+  img#logo-liga{
+    position: absolute;
+    left: 10px;
+    height: 100px;
+    bottom: 10px;
+  }
+  
+ h1#nombre-liga, h2#jornada-actual {
+    text-align: center;
+    color: #fff;
+    margin: 0;
+  }
+  
+  /* Equipo (div) */
+  .equipo{
+    border: 1px solid red;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  /* Fundación */
+  .fundacion{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #673ab7;
+  }
+
+  .equpo-nombre{
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+  }
+  
+  /* Imagen del equipo */
+  .equipo-imagen{
+    height: 120px;
+  }
+  
+  /* Estadio */
+  .equipo-estadio{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    color: #673ab7;
+  }
+  
+  /* Competiciones */
+  .equipo-competiciones{
+    position: relative;
+    height: 150px;
+    margin: 5px;
+    font-weight: bold;
+  }
+
+  .competicion-logo{
+    height: 100px;
+}
+  
+  /* Botón "Equipo" */
+  .equipo-boton{
+    background-color: #673ab7;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .equipo-boton:hover {
+    background-color: #5a2e99;
+  }
+  
